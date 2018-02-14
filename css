@@ -1,0 +1,92 @@
+
+body{
+  height: 1000px;
+  margin: ;
+  padding:;
+display: flex;
+flex-flow: column;
+ justify-content: center;
+   align-items:center;
+     background: linear-gradient(to right, lightblue, yellow);
+      font-family:'Oswald', sans-serif;
+  }
+
+
+
+
+.header-items{
+   display: flex;
+   justify-content: center;
+}
+
+.social-links-container{
+  display: flex;
+  justify-content: center;
+}
+
+.techskills-container{
+  display: flex;
+  justify-content:center;
+  position:relative;
+
+}
+
+
+.skills{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+.pic{ display: flex;
+       justify-content: center;
+}
+
+.footer{
+  display: flex;
+     flex:initial;
+
+
+
+}
+
+footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+
+}
+
+.footer-items{
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+    background-color: lightblue;
+    height: 100px;
+    flex: 100px;
+    flex:initial;
+    width: 2000px;
+
+  }
+
+
+  #icon1:hover,
+  #icon2:hover,
+  #icon3:hover,
+  #icon4:hover {
+	 transform:scale(1.3);
+}
+
+
+.repositories-container{
+  display: flex;
+
+    justify-content: center;
+
+}
+.repositories{
+  flex-wrap: wrap;
+justify-content: center;
+ align-items: center;
+}
